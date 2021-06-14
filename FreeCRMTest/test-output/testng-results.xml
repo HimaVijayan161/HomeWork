@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel Testing Suite" duration-ms="32" started-at="2021-02-19T20:38:02Z" finished-at="2021-02-19T20:38:02Z">
+    <groups>
+    </groups>
+    <test name="Parallel Tests" duration-ms="32" started-at="2021-02-19T20:38:02Z" finished-at="2021-02-19T20:38:02Z">
+      <class name="temp.FirefoxTest">
+        <test-method status="PASS" signature="FirefoxTestMethod()[pri:0, instance:temp.FirefoxTest@59fa1d9b]" name="FirefoxTestMethod" duration-ms="2" started-at="2021-02-20T02:08:02Z" finished-at="2021-02-20T02:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirefoxTestMethod -->
+        <test-method status="PASS" signature="print()[pri:0, instance:temp.FirefoxTest@59fa1d9b]" name="print" duration-ms="2" started-at="2021-02-20T02:08:02Z" finished-at="2021-02-20T02:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+      </class> <!-- temp.FirefoxTest -->
+      <class name="temp.ChromeTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:temp.ChromeTest@d8355a8]" name="beforeTest" is-config="true" duration-ms="7" started-at="2021-02-20T02:08:02Z" finished-at="2021-02-20T02:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:temp.FirefoxTest@59fa1d9b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-02-20T02:08:02Z" finished-at="2021-02-20T02:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ChromeTestMethod()[pri:0, instance:temp.ChromeTest@d8355a8]" name="ChromeTestMethod" duration-ms="5" started-at="2021-02-20T02:08:02Z" finished-at="2021-02-20T02:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeTestMethod -->
+        <test-method status="PASS" signature="print()[pri:0, instance:temp.ChromeTest@d8355a8]" name="print" duration-ms="4" started-at="2021-02-20T02:08:02Z" finished-at="2021-02-20T02:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:temp.FirefoxTest@59fa1d9b]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-02-20T02:08:02Z" finished-at="2021-02-20T02:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:temp.ChromeTest@d8355a8]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-02-20T02:08:02Z" finished-at="2021-02-20T02:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- temp.ChromeTest -->
+    </test> <!-- Parallel Tests -->
+  </suite> <!-- Parallel Testing Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.wallethub.util.ExtentReport"/>
+  </listeners>
+  <test name="Facebook Automation Cases(failed)">
+    <classes>
+      <class name="com.wallethub.testcases.FacebookHomePageTest">
+        <methods>
+          <include name="verifyPostAnUpdate"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.wallethub.testcases.FacebookHomePageTest -->
+      <class name="com.wallethub.testcases.FaceBookLoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.wallethub.testcases.FaceBookLoginPageTest -->
+    </classes>
+  </test> <!-- Facebook Automation Cases(failed) -->
+</suite> <!-- Failed suite [Facebook Automation Test Suite] -->
